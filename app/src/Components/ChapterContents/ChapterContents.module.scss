@@ -1,0 +1,17 @@
+@import '../../Variables.scss';
+
+.chapterList {
+    font-size: 15px;
+}
+
+.chapterList tbody tr:nth-child(odd){
+    background-color: $zebraRow
+}
+
+.chapterList tbody tr:hover {
+    background-color: $accentRow;
+}
+
+.chapterList td {
+    padding:5px;
+}
